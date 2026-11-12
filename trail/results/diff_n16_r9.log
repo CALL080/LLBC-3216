@@ -1,0 +1,2 @@
+diff n=16 (8,4) rounds=9 W<=31: unsat 4.5s
+diff n=16 (8,4) rounds=9 W<=32: sat 3.2s  checked weight=32 total=32  trail=L0=0,R0=4 L1=4,R1=0 L2=40,R2=4 L3=404,R3=40 L4=4000,R4=404 L5=400,R5=4000 L6=0,R6=400 L7=400,R7=0 L8=4000,R8=400 L9=c8c4,R9=4000

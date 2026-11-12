@@ -1,0 +1,4 @@
+diff n=16 (8,4) rounds=5 W<=15: unsat 3.1s
+diff n=16 (8,4) rounds=5 W<=16: sat 1.6s  checked weight=16 total=16  trail=L0=2000,R0=801 L1=800,R1=2000 L2=0,R2=800 L3=800,R3=0 L4=2000,R4=800 L5=9191,R5=2000
+diff n=16 (8,4) rounds=5 W<=15: unsat 1.2s
+diff n=16 (8,4) rounds=5 W<=16: sat 1.6s  checked weight=16 total=16  trail=L0=2000,R0=801 L1=800,R1=2000 L2=0,R2=800 L3=800,R3=0 L4=2000,R4=800 L5=9191,R5=2000

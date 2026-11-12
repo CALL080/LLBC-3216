@@ -1,0 +1,1 @@
+jlin n=16 (8,4) rounds=13 W<=15: timeout/stopped after 6686.6s (cap 10800s)

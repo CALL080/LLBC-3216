@@ -1,0 +1,4 @@
+diff r=6 w=24 key0: count=0 (ordered x; predicted 2^(32-24) = 256) [22.6 s]
+diff r=6 w=24 key1: count=2 (ordered x; predicted 2^(32-24) = 256) [22.6 s]
+diff r=6 w=24 key2: count=2 (ordered x; predicted 2^(32-24) = 256) [22.3 s]
+diff r=6 w=24 key3: count=0 (ordered x; predicted 2^(32-24) = 256) [23.2 s]

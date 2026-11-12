@@ -1,0 +1,15 @@
+== 1. Verilog = C ? (transcriptions, 2000 random (P, K), 20 rounds)
+   Verilog, P=0, K=FF..FF -> 0C40B9A6 69053EC4 F1DD3EEA 85366E1E (C: 0C40B9A6 69053EC4 F1DD3EEA 85366E1E)
+   agree: 2000/2000
+   testbench vector P=K=0123..3210 -> 7A03B217 F2F19162 A32A1105 DB69CD28 (LLBC_tb.v prints nothing and checks nothing)
+== 2. Key schedule of the code vs Eq. (2)-(4)
+   round-0 key equals the master key (Eq. (4): RK_0 = K_0 || K_1)? False
+   right half: B_{j+1} = G^2(B_j) xor (RC_KS || 0) for all rounds? True
+   left half:  A_{j+1} = A_j xor G^2(B_j) xor (0 || RC_ENC) for all rounds? True
+   flipping a bit of K_0 changes the post-MixWord keys B_j: 0/200 times (B_0..B_19 depend only on the 64 bits K_1)
+   code's A_0 = Eq. (2)'s K_2 up to the constant? True
+   code's B_0 = Eq. (2)'s K_3 = G^2(K_2) xor K_1 up to constants? False
+== 3. Round constants
+   code: RC_ENC = 243F6A88 in every round (spec: RC_i = RC_0 <<< i); RC_KS = 85A308D3 = Table III's RC_0 for LLBC-128-256
+== 4. Round function of the code: S2 input
+   changing the round key on the T path changes L_{i+1}? False (spec Fig. 2 / Alg. 1 line 6: S2 takes T_i = L_i xor RK xor RC, so it should)

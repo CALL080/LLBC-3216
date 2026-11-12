@@ -1,0 +1,2 @@
+diff n=16 (8,4) rounds=8 W<=27: unsat 4.0s
+diff n=16 (8,4) rounds=8 W<=28: sat 3.9s  checked weight=28 total=28  trail=L0=8000,R0=9991 L1=0,R1=8000 L2=8000,R2=0 L3=2,R3=8000 L4=8080,R4=2 L5=200,R5=8080 L6=80,R6=200 L7=0,R7=80 L8=80,R8=0

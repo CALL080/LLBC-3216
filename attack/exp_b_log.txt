@@ -1,0 +1,19 @@
+experiment B: d=32 seed=20261026 threads=20
+self-check: test vector and 1000 random (key, plaintext) agree with the official code
+secret key: F15596D2 57649060 0FAA291C A97DBDC0
+phase 1: part 0 depends on 80 directions of the master key (kernel 48)
+  ... 32/256 chunks done, 21 s
+  ... 64/256 chunks done, 46 s
+  ... 96/256 chunks done, 66 s
+  ... 128/256 chunks done, 83 s
+  ... 160/256 chunks done, 95 s
+  ... 192/256 chunks done, 114 s
+  ... 224/256 chunks done, 132 s
+  ... 256/256 chunks done, 151 s
+phase 1: 4294967298 encryptions (2^32.00), 150.8 s, 1 survivor(s)
+  candidate = true coordinates
+phase 2: part 1 adds 16 new directions (kernel left 32), 2^16 candidates, 1 survivor(s)
+phase 3: part 2 adds 16 new directions (kernel left 16), 2^16 candidates, 1 survivor(s)
+phase 4: part 3 adds 16 new directions (kernel left 0), 2^16 candidates, 1 survivor(s)
+recovered key: F15596D2 57649060 0FAA291C A97DBDC0  (kernel left 0)
+  4th known pair encrypts correctly: yes;  equals the secret key: yes

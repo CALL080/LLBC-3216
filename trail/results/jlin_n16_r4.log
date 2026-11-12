@@ -1,0 +1,2 @@
+jlin n=16 (8,4) rounds=4 W<=2: unsat 40.2s
+jlin n=16 (8,4) rounds=4 W<=3: sat 27.6s  checked weight=3 total=3  trail=L0=9969,R0=8588 L1=8588,R1=0 L2=0,R2=8588 L3=8588,R3=9979 L4=9979,R4=7a78

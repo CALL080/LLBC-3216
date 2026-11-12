@@ -1,0 +1,5 @@
+part 0: 336 round-key bits (K_0..K_20), rank over the master key = 118
+part 1: 336 round-key bits (K_0..K_20), rank over the master key = 118
+part 2: 336 round-key bits (K_0..K_20), rank over the master key = 118
+part 3: 336 round-key bits (K_0..K_20), rank over the master key = 118
+all parts together: 128

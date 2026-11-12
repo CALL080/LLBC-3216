@@ -1,0 +1,2 @@
+jlin n=16 (8,4) rounds=13 W<=15: timeout/stopped after 6686.6s (cap 10800s)
+jlin n=16 (8,4) rounds=13 W<=15: stopped at 1h51m (redundant: B13 >= B12 >= 16 since rounds=12 W<=15 is unsat)

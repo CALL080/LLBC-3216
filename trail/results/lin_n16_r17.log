@@ -1,0 +1,23 @@
+lin n=16 (8,4) rounds=17 W<=0: unsat 1.9s
+lin n=16 (8,4) rounds=17 W<=1: unsat 2.2s
+lin n=16 (8,4) rounds=17 W<=2: unsat 3.2s
+lin n=16 (8,4) rounds=17 W<=3: unsat 2.1s
+lin n=16 (8,4) rounds=17 W<=4: unsat 3.5s
+lin n=16 (8,4) rounds=17 W<=5: unsat 3.0s
+lin n=16 (8,4) rounds=17 W<=6: unsat 3.0s
+lin n=16 (8,4) rounds=17 W<=7: unsat 3.2s
+lin n=16 (8,4) rounds=17 W<=8: unsat 4.3s
+lin n=16 (8,4) rounds=17 W<=9: unsat 4.3s
+lin n=16 (8,4) rounds=17 W<=10: unsat 4.7s
+lin n=16 (8,4) rounds=17 W<=11: unsat 4.7s
+lin n=16 (8,4) rounds=17 W<=12: unsat 11.1s
+lin n=16 (8,4) rounds=17 W<=13: unsat 10.8s
+lin n=16 (8,4) rounds=17 W<=14: unsat 11.8s
+lin n=16 (8,4) rounds=17 W<=15: unsat 11.6s
+lin n=16 (8,4) rounds=17 W<=16: unsat 11.2s
+lin n=16 (8,4) rounds=17 W<=17: unsat 11.5s
+lin n=16 (8,4) rounds=17 W<=18: unsat 24.5s
+lin n=16 (8,4) rounds=17 W<=19: unsat 12.7s
+lin n=16 (8,4) rounds=17 W<=20: unsat 22.3s
+lin n=16 (8,4) rounds=17 W<=21: unsat 23.5s
+lin n=16 (8,4) rounds=17 W<=22: sat 21.5s  checked weight=22 total=22  trail=L0=1010,R0=101 L1=101,R1=0 L2=0,R2=101 L3=101,R3=3030 L4=3030,R4=0 L5=0,R5=3030 L6=3030,R6=101 L7=101,R7=0 L8=0,R8=101 L9=101,R9=1010 L10=1010,R10=0 L11=0,R11=1010 L12=1010,R12=101 L13=101,R13=0 L14=0,R14=101 L15=101,R15=1010 L16=1010,R16=0 L17=0,R17=1010

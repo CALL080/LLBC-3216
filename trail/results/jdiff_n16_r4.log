@@ -1,0 +1,4 @@
+jdiff n=16 (8,4) rounds=4 W<=6: unsat 1.6s
+jdiff n=16 (8,4) rounds=4 W<=7: unsat 1.7s
+jdiff n=16 (8,4) rounds=4 W<=8: unsat 8.4s
+jdiff n=16 (8,4) rounds=4 W<=9: sat 4.0s  checked weight=9 total=9  trail=L0=9000,R0=656d L1=300,R1=9000 L2=0,R2=300 L3=300,R3=0 L4=9000,R4=300

@@ -1,0 +1,6 @@
+jdiff n=16 (8,4) rounds=9 W<=29: unsat 225.8s
+jdiff n=16 (8,4) rounds=9 W<=31: sat 224.7s  checked weight=30 total=30  trail=L0=5000,R0=aaac L1=0,R1=5000 L2=5000,R2=0 L3=d,R3=5000 L4=2727,R4=d L5=d00,R5=2727 L6=50,R6=d00 L7=0,R7=50 L8=50,R8=0 L9=3233,R9=50
+jdiff n=16 (8,4) rounds=9 W<=30: sat 227.2s  checked weight=30 total=30  trail=L0=d,R0=41f1 L1=5000,R1=d L2=0,R2=5000 L3=5000,R3=0 L4=d,R4=5000 L5=2727,R5=d L6=d00,R6=2727 L7=50,R7=d00 L8=0,R8=50 L9=50,R9=0
+jdiff n=16 (8,4) rounds=9 W<=32: sat 232.2s  checked weight=30 total=30  trail=L0=0,R0=5 L1=5,R1=0 L2=d0,R2=5 L3=7272,R3=d0 L4=d000,R4=7272 L5=500,R5=d000 L6=0,R6=500 L7=500,R7=0 L8=d000,R8=500 L9=8d85,R9=d000
+jdiff n=16 (8,4) rounds=9 W<=27: unsat 256.5s
+jdiff n=16 (8,4) rounds=9 W<=28: unsat 290.4s

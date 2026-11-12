@@ -1,0 +1,1 @@
+lin n=16 (8,4) rounds=16 W<=20: sat 10.0s  checked weight=20 total=20  trail=L0=d0d0,R0=0 L1=0,R1=d0d0 L2=d0d0,R2=e0e L3=e0e,R3=0 L4=0,R4=e0e L5=e0e,R5=d0d0 L6=d0d0,R6=0 L7=0,R7=d0d0 L8=d0d0,R8=e0e L9=e0e,R9=0 L10=0,R10=e0e L11=e0e,R11=d0d0 L12=d0d0,R12=0 L13=0,R13=d0d0 L14=d0d0,R14=e0e L15=e0e,R15=0 L16=0,R16=e0e

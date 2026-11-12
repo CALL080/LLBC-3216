@@ -1,0 +1,36 @@
+joint DDT: input difference -> number of output pairs, set of counts (out of 16)
+  1: 8 pairs, counts [2], both output differences nonzero: True
+  2: 8 pairs, counts [2], both output differences nonzero: True
+  3: 8 pairs, counts [2], both output differences nonzero: True
+  4: 8 pairs, counts [2], both output differences nonzero: True
+  5: 8 pairs, counts [2], both output differences nonzero: True
+  6: 8 pairs, counts [2], both output differences nonzero: True
+  7: 8 pairs, counts [2], both output differences nonzero: True
+  8: 8 pairs, counts [2], both output differences nonzero: True
+  9: 8 pairs, counts [2], both output differences nonzero: True
+  a: 8 pairs, counts [2], both output differences nonzero: True
+  b: 8 pairs, counts [2], both output differences nonzero: True
+  c: 8 pairs, counts [2], both output differences nonzero: True
+  d: 8 pairs, counts [2], both output differences nonzero: True
+  e: 8 pairs, counts [2], both output differences nonzero: True
+  f: 8 pairs, counts [2], both output differences nonzero: True
+every nonzero input difference: exactly 8 pairs, each with count 2 (probability 2/16, weight 3): True
+
+Table 4 (input difference 4): independent model allows 36 pairs, joint model 8
+  output differences (4, 1): independent 1/16, actual 0
+  output differences (8, 4): independent 1/16, actual 0
+  output differences (3, 4): independent 1/32, actual 1/8
+  output differences (4, 6): independent 1/32, actual 1/8
+  joint pairs: [(3, 4), (4, 6), (4, 10), (6, 4), (8, 5), (8, 9), (9, 1), (12, 1)]
+
+linear masks (input, S1 output, S2 output) with correlation +-1, not all zero:
+  (0, 8, 1): Walsh sum +16
+  (6, 2, 3): Walsh sum -16
+  (6, a, 2): Walsh sum -16
+  (9, 5, d): Walsh sum -16
+  (9, d, c): Walsh sum -16
+  (f, 7, e): Walsh sum +16
+  (f, f, f): Walsh sum +16
+number of such masks: 7
+
+key nibble on the S2 input, averaged over the key: one-round differential probability = product of the two S-box probabilities for all (a, b1, b2): True

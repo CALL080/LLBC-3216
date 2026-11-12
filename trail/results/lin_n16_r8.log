@@ -1,0 +1,3 @@
+lin n=16 (8,4) rounds=8 W<=8: unsat 3.2s
+lin n=16 (8,4) rounds=8 W<=9: unsat 2.4s
+lin n=16 (8,4) rounds=8 W<=10: sat 3.7s  checked weight=10 total=10  trail=L0=2020,R0=0 L1=0,R1=2020 L2=2020,R2=808 L3=808,R3=0 L4=0,R4=808 L5=808,R5=2020 L6=2020,R6=0 L7=0,R7=2020 L8=2020,R8=908

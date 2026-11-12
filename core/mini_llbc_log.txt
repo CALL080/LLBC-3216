@@ -1,0 +1,2 @@
+part k of LLBC(32,16) == 32-bit LLBC-type cipher with rotations (8,4): 1000/1000
+constant RC64 = RC_ENC||0 per part: ['F800', '3800', '4A00', '2600']

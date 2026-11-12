@@ -1,0 +1,35 @@
+lin n=16 (8,4) rounds=2 W<=0: unsat 1.6s
+lin n=16 (8,4) rounds=2 W<=1: unsat 0.2s
+lin n=16 (8,4) rounds=2 W<=2: sat 0.2s  checked weight=2 total=2  trail=L0=f0f,R0=0 L1=0,R1=f0f L2=f0f,R2=8070
+lin n=16 (8,4) rounds=3 W<=2: unsat 0.2s
+lin n=16 (8,4) rounds=3 W<=3: unsat 0.2s
+lin n=16 (8,4) rounds=3 W<=4: sat 0.3s  checked weight=4 total=4  trail=L0=44,R0=0 L1=0,R1=44 L2=44,R2=4004 L3=4004,R3=4444
+lin n=16 (8,4) rounds=4 W<=4: sat 0.4s  checked weight=4 total=4  trail=L0=d0d,R0=0 L1=0,R1=d0d L2=d0d,R2=e0e0 L3=e0e0,R3=0 L4=0,R4=e0e0
+lin n=16 (8,4) rounds=5 W<=4: unsat 0.5s
+lin n=16 (8,4) rounds=5 W<=5: unsat 0.9s
+lin n=16 (8,4) rounds=5 W<=6: sat 0.5s  checked weight=6 total=6  trail=L0=4020,R0=808 L1=808,R1=0 L2=0,R2=808 L3=808,R3=2020 L4=2020,R4=0 L5=0,R5=2020
+lin n=16 (8,4) rounds=6 W<=6: unsat 1.4s
+lin n=16 (8,4) rounds=6 W<=7: unsat 1.4s
+lin n=16 (8,4) rounds=6 W<=8: sat 1.3s  checked weight=8 total=8  trail=L0=202,R0=7070 L1=7070,R1=0 L2=0,R2=7070 L3=7070,R3=505 L4=505,R4=0 L5=0,R5=505 L6=505,R6=6060
+lin n=16 (8,4) rounds=7 W<=8: sat 1.9s  checked weight=8 total=8  trail=L0=808,R0=0 L1=0,R1=808 L2=808,R2=2020 L3=2020,R3=0 L4=0,R4=2020 L5=2020,R5=808 L6=808,R6=0 L7=0,R7=808
+lin n=16 (8,4) rounds=8 W<=8: unsat 3.2s
+lin n=16 (8,4) rounds=8 W<=9: unsat 2.4s
+lin n=16 (8,4) rounds=8 W<=10: sat 3.7s  checked weight=10 total=10  trail=L0=2020,R0=0 L1=0,R1=2020 L2=2020,R2=808 L3=808,R3=0 L4=0,R4=808 L5=808,R5=2020 L6=2020,R6=0 L7=0,R7=2020 L8=2020,R8=908
+lin n=16 (8,4) rounds=9 W<=10: unsat 4.7s
+lin n=16 (8,4) rounds=9 W<=11: unsat 7.9s
+lin n=16 (8,4) rounds=9 W<=12: sat 6.7s  checked weight=12 total=12  trail=L0=303,R0=1010 L1=1010,R1=0 L2=0,R2=1010 L3=1010,R3=101 L4=101,R4=0 L5=0,R5=101 L6=101,R6=1010 L7=1010,R7=0 L8=0,R8=1010 L9=1010,R9=303
+lin n=16 (8,4) rounds=10 W<=12: sat 5.1s  checked weight=12 total=12  trail=L0=808,R0=0 L1=0,R1=808 L2=808,R2=2020 L3=2020,R3=0 L4=0,R4=2020 L5=2020,R5=808 L6=808,R6=0 L7=0,R7=808 L8=808,R8=2020 L9=2020,R9=0 L10=0,R10=2020
+lin n=16 (8,4) rounds=11 W<=12: unsat 5.0s
+lin n=16 (8,4) rounds=11 W<=13: unsat 13.3s
+lin n=16 (8,4) rounds=11 W<=14: sat 12.0s  checked weight=14 total=14  trail=L0=9090,R0=0 L1=0,R1=9090 L2=9090,R2=f0f L3=f0f,R3=e0e0 L4=e0e0,R4=0 L5=0,R5=e0e0 L6=e0e0,R6=d0d L7=d0d,R7=0 L8=0,R8=d0d L9=d0d,R9=e0e0 L10=e0e0,R10=0 L11=0,R11=e0e0
+lin n=16 (8,4) rounds=12 W<=14: unsat 11.2s
+lin n=16 (8,4) rounds=12 W<=15: unsat 11.3s
+lin n=16 (8,4) rounds=12 W<=16: sat 4.3s  checked weight=16 total=16  trail=L0=202,R0=8080 L1=8080,R1=0 L2=0,R2=8080 L3=8080,R3=202 L4=202,R4=0 L5=0,R5=202 L6=202,R6=8080 L7=8080,R7=0 L8=0,R8=8080 L9=8080,R9=202 L10=202,R10=0 L11=0,R11=202 L12=202,R12=9090
+lin n=16 (8,4) rounds=13 W<=16: sat 19.7s  checked weight=16 total=16  trail=L0=4040,R0=0 L1=0,R1=4040 L2=4040,R2=404 L3=404,R3=0 L4=0,R4=404 L5=404,R5=4040 L6=4040,R6=0 L7=0,R7=4040 L8=4040,R8=404 L9=404,R9=0 L10=0,R10=404 L11=404,R11=4040 L12=4040,R12=0 L13=0,R13=4040
+lin n=16 (8,4) rounds=14 W<=16: unsat 18.4s
+lin n=16 (8,4) rounds=14 W<=17: unsat 11.9s
+lin n=16 (8,4) rounds=14 W<=18: sat 14.2s  checked weight=18 total=18  trail=L0=101,R0=1010 L1=1010,R1=0 L2=0,R2=1010 L3=1010,R3=101 L4=101,R4=0 L5=0,R5=101 L6=101,R6=3030 L7=3030,R7=0 L8=0,R8=3030 L9=3030,R9=101 L10=101,R10=0 L11=0,R11=101 L12=101,R12=1010 L13=1010,R13=0 L14=0,R14=1010
+lin n=16 (8,4) rounds=15 W<=18: unsat 13.6s
+lin n=16 (8,4) rounds=15 W<=19: unsat 15.4s
+lin n=16 (8,4) rounds=15 W<=20: sat 20.8s  checked weight=20 total=20  trail=L0=505,R0=0 L1=0,R1=505 L2=505,R2=7070 L3=7070,R3=0 L4=0,R4=7070 L5=7070,R5=202 L6=202,R6=e0e0 L7=e0e0,R7=d0d L8=d0d,R8=0 L9=0,R9=d0d L10=d0d,R10=e0e0 L11=e0e0,R11=0 L12=0,R12=e0e0 L13=e0e0,R13=d0d L14=d0d,R14=0 L15=0,R15=d0d
+lin n=16 (8,4) rounds=16 W<=20: sat 10.0s  checked weight=20 total=20  trail=L0=d0d0,R0=0 L1=0,R1=d0d0 L2=d0d0,R2=e0e L3=e0e,R3=0 L4=0,R4=e0e L5=e0e,R5=d0d0 L6=d0d0,R6=0 L7=0,R7=d0d0 L8=d0d0,R8=e0e L9=e0e,R9=0 L10=0,R10=e0e L11=e0e,R11=d0d0 L12=d0d0,R12=0 L13=0,R13=d0d0 L14=d0d0,R14=e0e L15=e0e,R15=0 L16=0,R16=e0e

@@ -1,0 +1,5 @@
+jlin n=16 (8,4) rounds=11 W<=12: unsat 1815.0s
+jlin n=16 (8,4) rounds=11 W<=15: sat 958.2s  checked weight=15 total=15  trail=L0=3040,R0=101 L1=101,R1=0 L2=0,R2=101 L3=101,R3=1010 L4=1010,R4=0 L5=0,R5=1010 L6=1010,R6=303 L7=303,R7=0 L8=0,R8=303 L9=303,R9=1010 L10=1010,R10=0 L11=0,R11=1010
+jlin n=16 (8,4) rounds=11 W<=13: unsat 2955.2s
+jlin n=16 (8,4) rounds=11 W<=14: sat 3541.0s  checked weight=14 total=14  trail=L0=e0e0,R0=0 L1=0,R1=e0e0 L2=e0e0,R2=f0f L3=f0f,R3=9090 L4=9090,R4=0 L5=0,R5=9090 L6=9090,R6=f0f L7=f0f,R7=0 L8=0,R8=f0f L9=f0f,R9=9090 L10=9090,R10=0 L11=0,R11=9090
+MIN jlin n=16 rounds=11: 14

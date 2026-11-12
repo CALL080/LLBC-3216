@@ -1,0 +1,1 @@
+jlin n=16 (8,4) rounds=12 W<=15: unsat 6664.7s

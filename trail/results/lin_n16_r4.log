@@ -1,0 +1,2 @@
+lin n=16 (8,4) rounds=4 W<=4: sat 0.4s  checked weight=4 total=4  trail=L0=d0d,R0=0 L1=0,R1=d0d L2=d0d,R2=e0e0 L3=e0e0,R3=0 L4=0,R4=e0e0
+lin n=16 (8,4) rounds=4 W<=4: sat 0.4s  checked weight=4 total=4  trail=L0=d0d,R0=0 L1=0,R1=d0d L2=d0d,R2=e0e0 L3=e0e0,R3=0 L4=0,R4=e0e0

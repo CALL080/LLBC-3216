@@ -1,0 +1,8 @@
+[cell model] pairs checked: 3969  prediction mismatches: 0
+[cell model] pairs that split: 49  number of parts -> count: {2: 40, 4: 8, 8: 1}
+[cell model] (3,19): 1  (32,16): 4  (5,19) [256-bit version]: 1
+[exact dependencies] pairs checked: 3969  prediction mismatches: 0
+[exact dependencies] pairs that split: 49  number of parts -> count: {2: 40, 4: 8, 8: 1}
+[exact dependencies] (3,19): 1  (32,16): 4  (5,19) [256-bit version]: 1
+S1: (input bit, output bit) pairs without dependency: [(0, 3)]
+S2: (input bit, output bit) pairs without dependency: [(0, 0)]

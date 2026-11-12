@@ -1,0 +1,6 @@
+lin n=16 (8,4) rounds=3 W<=2: unsat 0.3s
+lin n=16 (8,4) rounds=3 W<=3: unsat 0.3s
+lin n=16 (8,4) rounds=3 W<=4: sat 0.3s  checked weight=4 total=4  trail=L0=44,R0=0 L1=0,R1=44 L2=44,R2=4004 L3=4004,R3=4444
+lin n=16 (8,4) rounds=3 W<=2: unsat 0.2s
+lin n=16 (8,4) rounds=3 W<=3: unsat 0.2s
+lin n=16 (8,4) rounds=3 W<=4: sat 0.3s  checked weight=4 total=4  trail=L0=44,R0=0 L1=0,R1=44 L2=44,R2=4004 L3=4004,R3=4444

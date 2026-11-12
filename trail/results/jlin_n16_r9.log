@@ -1,0 +1,6 @@
+jlin n=16 (8,4) rounds=9 W<=15: sat 1292.3s  checked weight=15 total=15  trail=L0=e1e2,R0=7999 L1=7999,R1=111d L2=111d,R2=0 L3=0,R3=111d L4=111d,R4=7999 L5=7999,R5=e1e2 L6=e1e2,R6=28f8 L7=28f8,R7=7779 L8=7779,R8=d8f8 L9=d8f8,R9=1614
+jlin n=16 (8,4) rounds=9 W<=13: sat 1343.2s  checked weight=13 total=13  trail=L0=3090,R0=909 L1=909,R1=0 L2=0,R2=909 L3=909,R3=f0f0 L4=f0f0,R4=e0e L5=e0e,R5=0 L6=0,R6=e0e L7=e0e,R7=d0d0 L8=d0d0,R8=0 L9=0,R9=d0d0
+jlin n=16 (8,4) rounds=9 W<=11: unsat 1408.2s
+jlin n=16 (8,4) rounds=9 W<=10: unsat 1530.4s
+jlin n=16 (8,4) rounds=9 W<=14: sat 1558.9s  checked weight=14 total=14  trail=L0=c05,R0=7070 L1=7070,R1=0 L2=0,R2=7070 L3=7070,R3=505 L4=505,R4=1010 L5=1010,R5=0 L6=0,R6=1010 L7=1010,R7=101 L8=101,R8=0 L9=0,R9=101
+jlin n=16 (8,4) rounds=9 W<=12: sat 2560.1s  checked weight=12 total=12  trail=L0=668f,R0=f0 L1=f0,R1=9979 L2=9979,R2=ff00 L3=ff00,R3=9009 L4=9009,R4=0 L5=0,R5=9009 L6=9009,R6=ff00 L7=ff00,R7=9799 L8=9799,R8=f L9=f,R9=866

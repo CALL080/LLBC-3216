@@ -1,0 +1,10 @@
+jdiff n=16 (8,4) rounds=6 W<=12: unsat 49.3s
+jdiff n=16 (8,4) rounds=6 W<=13: unsat 48.8s
+jdiff n=16 (8,4) rounds=6 W<=14: unsat 60.0s
+jdiff n=16 (8,4) rounds=6 W<=15: unsat 56.8s
+jdiff n=16 (8,4) rounds=6 W<=16: unsat 39.0s
+jdiff n=16 (8,4) rounds=6 W<=17: unsat 39.3s
+jdiff n=16 (8,4) rounds=6 W<=18: unsat 45.1s
+jdiff n=16 (8,4) rounds=6 W<=19: unsat 46.8s
+jdiff n=16 (8,4) rounds=6 W<=20: unsat 45.6s
+jdiff n=16 (8,4) rounds=6 W<=21: sat 43.5s  checked weight=21 total=21  trail=L0=9000,R0=5654 L1=300,R1=9000 L2=0,R2=300 L3=300,R3=0 L4=f555,R4=300 L5=0,R5=f555 L6=f555,R6=0

@@ -1,0 +1,4 @@
+jlin n=16 (8,4) rounds=6 W<=4: unsat 59.9s
+jlin n=16 (8,4) rounds=6 W<=5: unsat 85.2s
+jlin n=16 (8,4) rounds=6 W<=6: unsat 85.7s
+jlin n=16 (8,4) rounds=6 W<=7: sat 88.3s  checked weight=7 total=7  trail=L0=6f88,R0=87a7 L1=87a7,R1=9997 L2=9997,R2=8858 L3=8858,R3=0 L4=0,R4=8858 L5=8858,R5=9997 L6=9997,R6=87a7

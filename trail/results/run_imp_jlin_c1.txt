@@ -1,0 +1,1 @@
+jlin rounds=20 in R0 bit0 (part0) -> out L bit8 (part2): IMPOSSIBLE (unsat)  560.5s

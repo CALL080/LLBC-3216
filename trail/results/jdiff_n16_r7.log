@@ -1,0 +1,4 @@
+jdiff n=16 (8,4) rounds=7 W<=23: unsat 86.0s
+jdiff n=16 (8,4) rounds=7 W<=21: unsat 88.1s
+jdiff n=16 (8,4) rounds=7 W<=22: unsat 90.1s
+jdiff n=16 (8,4) rounds=7 W<=24: sat 72.1s  checked weight=24 total=24  trail=L0=d0,R0=858b L1=3,R1=d0 L2=0,R2=3 L3=3,R3=0 L4=55f5,R4=3 L5=3,R5=55f5 L6=0,R6=3 L7=3,R7=0

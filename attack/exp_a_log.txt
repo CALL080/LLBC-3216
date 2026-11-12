@@ -1,0 +1,18 @@
+experiment A: targets=1000 seed=20261026 threads=20
+secret key: 81204FA5 EAA44A1E 495FD12B C4F04FE8
+  ... 32/256 blocks, 23 s
+  ... 64/256 blocks, 46 s
+  ... 96/256 blocks, 69 s
+  ... 128/256 blocks, 92 s
+  ... 160/256 blocks, 114 s
+  ... 192/256 blocks, 133 s
+  ... 224/256 blocks, 156 s
+  ... 256/256 blocks, 176 s
+queries: 4294967296 (= 2^32.00), time 175.5 s
+part 0: 1000 distinct target values, 1000 hits
+part 1: 1000 distinct target values, 1000 hits
+part 2: 1000 distinct target values, 1000 hits
+part 3: 1000 distinct target values, 1000 hits
+recovered plaintext == original: 1000 / 1000
+re-encryption == target:          1000 / 1000
+example: C = 40479AE9 7D5199D6 487CB443 30DCE351 -> P = 8DD5E3DC 8F4E0CC4 FBBC75C8 168CB764

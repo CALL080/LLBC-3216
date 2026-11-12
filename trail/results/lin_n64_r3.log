@@ -1,0 +1,3 @@
+lin n=64 (32,16) rounds=3 W<=2: unsat 1.4s
+lin n=64 (32,16) rounds=3 W<=3: unsat 1.9s
+lin n=64 (32,16) rounds=3 W<=4: sat 1.1s  checked weight=4 total=4  trail=L0=70005000e000700,R0=c000c0000000000 L1=c000c0000000000,R1=700000000000700 L2=700000000000700,R2=0 L3=0,R3=700000000000700

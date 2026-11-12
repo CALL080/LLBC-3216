@@ -1,0 +1,4 @@
+diff n=16 (8,4) rounds=2 W<=3: unsat 1.7s
+diff n=16 (8,4) rounds=2 W<=4: sat 0.2s  checked weight=4 total=4  trail=L0=1,R0=99c9 L1=0,R1=1 L2=1,R2=0
+diff n=16 (8,4) rounds=2 W<=3: unsat 1.7s
+diff n=16 (8,4) rounds=2 W<=4: sat 0.2s  checked weight=4 total=4  trail=L0=1,R0=99c9 L1=0,R1=1 L2=1,R2=0

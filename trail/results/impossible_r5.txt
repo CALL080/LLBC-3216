@@ -1,0 +1,10 @@
+jdiff rounds=5 in R0 bit0 (part0) -> out L bit4 (part1): IMPOSSIBLE (unsat)  2.7s
+jdiff rounds=5 in R0 bit0 (part0) -> out L bit8 (part2): IMPOSSIBLE (unsat)  2.3s
+jdiff rounds=5 in R0 bit0 (part0) -> out R bit12 (part3): IMPOSSIBLE (unsat)  4.2s
+jdiff rounds=5 in L0 bit63 (part3) -> out R bit0 (part0): IMPOSSIBLE (unsat)  1.7s
+jdiff rounds=5 control: best 5-round characteristic placed in part 0: possible (sat)  22.2s
+jlin rounds=5 in R0 bit0 (part0) -> out L bit4 (part1): IMPOSSIBLE (unsat)  3.4s
+jlin rounds=5 in R0 bit0 (part0) -> out L bit8 (part2): IMPOSSIBLE (unsat)  3.4s
+jlin rounds=5 in R0 bit0 (part0) -> out R bit12 (part3): IMPOSSIBLE (unsat)  3.5s
+jlin rounds=5 in L0 bit63 (part3) -> out R bit0 (part0): IMPOSSIBLE (unsat)  2.5s
+jlin rounds=5 control: best 5-round characteristic placed in part 0: possible (sat)  3.2s
